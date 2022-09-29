@@ -99,6 +99,7 @@ export default function Board(props) {
           <>
             {row.map((square, x) => (
               <button
+                key={y * props.w + x}
                 className={square.display}
                 onClick={() => handleClick(x, y)}
               >
