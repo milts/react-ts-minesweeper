@@ -1,0 +1,19 @@
+h1,
+p {
+  font-family: Lato;
+}
+dialog {
+  top: 20%;
+  margin: 20%;
+}
+dialog button {
+  height: 30px;
+  background-color: black;
+  color: white;
+  border: solid 1px;
+  border-left: white;
+  border-right: gray;
+  border-top: white;
+  border-bottom: gray;
+  cursor: pointer;
+}

@@ -1,0 +1,31 @@
+.board {
+  font-size: 20px;
+}
+.board button {
+  margin: 0;
+  padding: 0;
+  width: 30px;
+  height: 30px;
+
+  border-left: solid 1px white;
+  border-right: solid 1px gray;
+  border-top: solid 1px white;
+  border-bottom: solid 1px gray;
+}
+.board button.empty {
+  background-color: white;
+}
+.board button.unclicked {
+  background-color: silver;
+  color: silver;
+}
+.board button.unclicked:hover {
+  background-color: gray;
+  color: gray;
+}
+.board button.bomb {
+  background-color: red;
+}
+.board button.clicked {
+  background-color: greenyellow;
+}
